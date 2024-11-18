@@ -1,0 +1,266 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Akhil Tiwari",
+    "label": "Senior Software Engineer",
+    "image": "",
+    "email": "akhiltiwari.13@gmail.com",
+    "phone": "(+91)-895-981-5625",
+    "url": "https://github.com/akhiltiwari13",
+    "summary": "Senior Software Engineer specializing in developing high-performance, low-latency trading systems using C++. Experienced in building scalable, reliable, and high-throughput applications for financial institutions.",
+    "location": {
+      "address": "A-083 Gulshan Botnia, Sector-144",
+      "postalCode": "201306",
+      "city": "Noida",
+      "countryCode": "IN",
+      "region": "Uttar Pradesh"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "akhiltiwari13",
+        "url": "https://github.com/akhiltiwari13"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "akhiltiwari",
+        "url": "https://stackoverflow.com/users/5161544/akhil-tiwari"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "akhiltiwari",
+        "url": "https://www.linkedin.com/in/akhiltiwari-13/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Gemini",
+      "location": "Gurugram",
+      "description": "Financial exchange for trading cryptocurrencies and associated derivatives.",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gemini.com",
+      "startDate": "2023-12-01",
+      "endDate": "2024-07-19",
+      "summary": "Trading Systems Development",
+      "highlights": [
+        "Designed and implemented highly available, low-latency, and scalable services in C++ that run in parallel with legacy systems.",
+        "Implemented services to enhance trading system administration by publishing events to UltraMessaging (UM).",
+        "Developed translator applications to publish events to Kafka from the match engine and ledger services."
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "location": "Bengaluru",
+      "description": "Global financial services firm providing investment banking, securities, wealth management, and investment management services.",
+      "position": "Senior Manager",
+      "url": "https://www.morganstanley.com",
+      "startDate": "2021-06-01",
+      "endDate": "2023-10-01",
+      "summary": "Low-Latency Execution",
+      "highlights": [
+        "Developed a Beneficiary Ownership Check hop to prevent wash trades.",
+        "Developed a smart order router for Bovespa (Brazil), BIVA/BMV (Mexico), and TSX (Canada) with a median roundtrip latency of approximately 27 microseconds.",
+        "Created system tests for verifying smart-order router functionality, log replay scripts, and end-of-day log analyzer scripts."
+      ]
+    },
+    {
+      "name": "Edelweiss",
+      "location": "Mumbai",
+      "description": "Financial services company providing a broad range of financial products and services.",
+      "position": "Manager",
+      "url": "https://www.edelweissfin.com",
+      "startDate": "2019-05-01",
+      "endDate": "2021-01-01",
+      "summary": "DMA Platform Development",
+      "highlights": [
+        "Contributed to the development of an in-house low-latency trading platform for sponsored access to institutional clients.",
+        "Achieved a median roundtrip latency of approximately 200 nanoseconds.",
+        "Developed real-time risk metrics dashboard for limit checks."
+      ]
+    },
+    {
+      "name": "Deqode",
+      "location": "Pune",
+      "description": "Technology company specializing in blockchain solutions.",
+      "position": "Senior Research Analyst",
+      "url": "https://deqode.com",
+      "startDate": "2018-05-01",
+      "endDate": "2019-05-01",
+      "summary": "Decentralized Ledger Development",
+      "highlights": [
+        "Developed an in-house high-throughput distributed ledger (Blaze protocol).",
+        "Created Howdoo’s backend for token distribution using a BitShares fork and developed multiple smart contracts on the EOS.IO network."
+      ]
+    },
+    {
+      "name": "Barclays",
+      "location": "Pune",
+      "description": "Investment and retail bank.",
+      "position": "Senior Software Developer",
+      "url": "https://home.barclays",
+      "startDate": "2015-06-15",
+      "endDate": "2018-05-01",
+      "summary": "Contact Center Desktop Application Development",
+      "highlights": [
+        "Developed and maintained contact center desktop applications to improve customer service efficiency.",
+        "Optimized UI components, resulting in a 15% reduction in latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institute of Engineering & Technology, Devi Ahilya University",
+      "url": "https://www.ietdavv.edu.in",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2011-06-01",
+      "endDate": "2015-05-01",
+      "score": "76.4%",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Performer Award",
+      "date": "2018-11-01",
+      "awarder": "Barclays",
+      "summary": "Received for reducing UI latency by 15% in contact center applications."
+    },
+    {
+      "title": "OpenShift Enterprise Development Certification",
+      "date": "2017-12-01",
+      "awarder": "Red Hat",
+      "summary": "Certified OpenShift Enterprise Developer."
+    },
+    {
+      "title": "Appian 7.11 Designer 201 Certification",
+      "date": "2015-11-01",
+      "awarder": "Appian",
+      "summary": "Certified Appian 7.11 Designer."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["C++ on Linux", "Python", "Go", "Java"]
+    },
+    {
+      "name": "Libraries and Frameworks",
+      "level": "",
+      "keywords": [
+        "Boost",
+        "googletest",
+        "librdkafka",
+        "libpcap++",
+        "Fix8",
+        "hiredis",
+        "librabbitmq",
+        "Testplan",
+        "Pandas",
+        "Seaborn",
+        "Fix-8",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "level": "",
+      "keywords": [
+        "GCC",
+        "Clang",
+        "Bazel",
+        "CMake",
+        "Premake",
+        "Unix Makefiles"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "level": "",
+      "keywords": [
+        "GDB",
+        "LLDB",
+        "Gprof",
+        "Docker",
+        "Git",
+        "Vim",
+        "Neovim",
+        "VSCode",
+        "Tmux",
+        "Xpedite",
+        "Valgrind",
+        "Clangd",
+        "Clang-format",
+        "FIX-4.2",
+        "Pip"
+      ]
+    },
+    {
+      "name": "Integration Tools",
+      "level": "",
+      "keywords": [
+        "UltraMessaging",
+        "Kafka",
+        "RabbitMQ",
+        "Redis",
+        "Datadog",
+        "Sentry",
+        "PagerDuty",
+        "Jenkins",
+        "GitHub",
+        "Bitbucket",
+        "GitLab",
+        "Protobuf",
+        "Amazon S3",
+        "Postgres",
+        "Hashicorp Nomad",
+        "Hashicorp Vault"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blaze Protocol",
+      "description": "An in-house high-throughput distributed ledger.",
+      "highlights": [
+        "Developed a scalable and efficient blockchain protocol for enterprise use cases."
+      ],
+      "keywords": ["Blockchain", "Distributed Ledger", "High Throughput"],
+      "startDate": "2018-05-01",
+      "endDate": "2019-05-01",
+      "roles": ["Developer", "Research Analyst"],
+      "entity": "Deqode",
+      "type": "application"
+    },
+    {
+      "name": "Smart Order Router",
+      "description": "Developed smart order routing systems for various stock exchanges.",
+      "highlights": [
+        "Implemented a smart order router for Bovespa, BIVA/BMV, and TSX with median latency of ~27 microseconds.",
+        "Developed system tests and log analyzer scripts."
+      ],
+      "keywords": ["Low Latency", "Trading Systems", "Smart Order Routing"],
+      "startDate": "2021-06-01",
+      "endDate": "2023-10-01",
+      "roles": ["Senior Manager"],
+      "entity": "Morgan Stanley",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2024-10-17T00:00:00"
+  }
+}

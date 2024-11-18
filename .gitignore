@@ -1,0 +1,26 @@
+**/.DS_Store/
+
+# Recursively Ignore all generated resume files
+**/out/
+**/*.html
+**/*.pdf
+**/*.doc
+**/*.txt
+# **/*.json
+# **/*.md
+**/*.yml
+
+# exported from gdocs
+**/*.docx
+**/*.odt
+**/*.docs
+
+# images
+**/*.heic
+
+**/node_modules/
+**/yarn.lock
+**/package-lock.json
+**/package.json
+
+!README.md

@@ -1,0 +1,254 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Akhil Tiwari",
+    "label": "Senior Software Engineer",
+    "image": "",
+    "email": "akhiltiwari.13@gmail.com",
+    "phone": "(+91)-895-981-5625",
+    "url": "https://github.com/akhiltiwari13",
+    "summary": "Experienced software engineer specializing in high-frequency trading systems, low-latency execution platforms, and distributed ledger technologies. Proven track record in developing scalable and efficient solutions for financial institutions and blockchain projects.",
+    "location": {
+      "address": "A-083 Gulshan Botnia, Sector-144",
+      "postalCode": "201306",
+      "city": "Noida",
+      "countryCode": "IN",
+      "region": "Uttar Pradesh"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "akhiltiwari13",
+        "url": "https://github.com/akhiltiwari13"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "akhiltiwari",
+        "url": "https://stackoverflow.com/users/5161544/akhil-tiwari"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "akhiltiwari",
+        "url": "https://www.linkedin.com/in/akhiltiwari-13/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Gemini",
+      "location": "Gurugram",
+      "description": "Financial Exchange for trading crypto and associated derivatives.",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gemini.com",
+      "startDate": "2023-12-01",
+      "endDate": "2024-08-01",
+      "summary": "Trading Systems Development",
+      "highlights": [
+        "Designed and implemented highly available, low latency, and scalable services in C++ that run in parallel to legacy systems.",
+        "Implemented services to enhance Trading System Administration by publishing events to UM.",
+        "Developed translator applications to publish events from the match engine and ledger services to Kafka, improving system integration and data flow."
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "location": "Bengaluru",
+      "description": "Global financial services firm focusing on investment banking and wealth management.",
+      "position": "Senior Manager",
+      "url": "https://www.morganstanley.com",
+      "startDate": "2021-06-01",
+      "endDate": "2023-10-01",
+      "summary": "Low Latency Execution Platform Development",
+      "highlights": [
+        "Developed a Beneficiary Ownership Check hop for preventing wash trades, enhancing trade compliance and risk management.",
+        "Engineered a smart order router for Bovespa (Brazil), Biva | BMV (Mexico) & TSX (Canada) with a median roundtrip latency of ~27 microseconds.",
+        "Created comprehensive system tests for verifying smart-order router functionality, implemented LogReplay Scripts, and developed EOD LogAnalyzer scripts for improved system reliability and performance analysis."
+      ]
+    },
+    {
+      "name": "Edelweiss",
+      "location": "Mumbai",
+      "description": "Leading Indian financial services conglomerate offering a wide range of financial products and services.",
+      "position": "Manager",
+      "url": "https://www.edelweissfin.com",
+      "startDate": "2019-05-01",
+      "endDate": "2021-01-01",
+      "summary": "DMA Platform Development",
+      "highlights": [
+        "Contributed to the development of an in-house low latency trading platform for sponsored access to Institutional Clients, achieving a median roundtrip latency of ~200 nanoseconds.",
+        "Developed a real-time risk metrics dashboard for limit checks, enhancing risk management capabilities for institutional clients."
+      ]
+    },
+    {
+      "name": "Deqode",
+      "location": "Pune",
+      "description": "Blockchain technology solutions provider specializing in decentralized applications and protocols.",
+      "position": "Senior Research Analyst",
+      "url": "https://deqode.com",
+      "startDate": "2018-05-01",
+      "endDate": "2019-05-01",
+      "summary": "Decentralized Ledger Development",
+      "highlights": [
+        "Led the development of an in-house high throughput distributed ledger (Blaze protocol), advancing the company's blockchain capabilities.",
+        "Developed Howdoo's backend for token distribution using a Bitshares fork, showcasing expertise in blockchain integration.",
+        "Engineered multiple smart contracts on the EOS.IO network, demonstrating proficiency in decentralized application development."
+      ]
+    },
+    {
+      "name": "Barclays",
+      "location": "Pune",
+      "description": "Multinational investment bank and financial services company.",
+      "position": "Senior Software Developer",
+      "url": "https://home.barclays",
+      "startDate": "2015-06-15",
+      "endDate": "2018-05-01",
+      "summary": "Contact Center Desktop Application Development",
+      "highlights": [
+        "Developed and maintained critical components of the contact center desktop application, improving customer service efficiency.",
+        "Awarded 'Outstanding Performer' for reducing UI latency by 15% in November 2018, significantly enhancing user experience."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "I.E.T. Devi Ahilya University",
+      "url": "https://www.ietdavv.edu.in/",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2011-06-01",
+      "endDate": "2015-05-01",
+      "score": "76.4%",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Performer Award",
+      "date": "2018-11-01",
+      "awarder": "Barclays",
+      "summary": "Recognized for reducing UI latency by 15%, significantly improving application performance."
+    },
+    {
+      "title": "OpenShift Enterprise Development Certification",
+      "date": "2017-12-01",
+      "awarder": "Red Hat",
+      "summary": "Demonstrated proficiency in OpenShift Enterprise Development."
+    },
+    {
+      "title": "Appian 7.11 Designer 201 Certification",
+      "date": "2015-11-01",
+      "awarder": "Appian",
+      "summary": "Achieved certification in Appian 7.11 Designer 201, showcasing expertise in low-code application development."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": [
+        "C++",
+        "Python",
+        "Go",
+        "Java"
+      ]
+    },
+    {
+      "name": "Libraries and Frameworks",
+      "level": "Advanced",
+      "keywords": [
+        "Boost",
+        "googletest",
+        "librdkafka",
+        "libpcap++",
+        "Fix8",
+        "hiredis",
+        "librabbitmq",
+        "Testplan",
+        "Pandas",
+        "Seaborn",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "level": "Proficient",
+      "keywords": [
+        "GCC",
+        "Clang",
+        "Bazel",
+        "CMake",
+        "Premake",
+        "Unix Makefiles"
+      ]
+    },
+    {
+      "name": "Utilities and Tools",
+      "level": "Advanced",
+      "keywords": [
+        "GDB",
+        "LLDB",
+        "Gprof",
+        "Docker",
+        "Git",
+        "Vim",
+        "Neovim",
+        "VSCode",
+        "Tmux",
+        "Xpedite",
+        "Valgrind",
+        "Clangd",
+        "Clang-format"
+      ]
+    },
+    {
+      "name": "Integration Tools",
+      "level": "Proficient",
+      "keywords": [
+        "UltraMessaging",
+        "Kafka",
+        "RabbitMQ",
+        "Redis",
+        "Datadog",
+        "Sentry",
+        "Pagerduty",
+        "Jenkins",
+        "Github",
+        "Bitbucket",
+        "Gitlab",
+        "Protobuf",
+        "Amazon S3",
+        "Postgres",
+        "Hashicorp-Nomad/Vault"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "High-Frequency Trading",
+      "keywords": [
+        "Algorithm Development",
+        "Market Microstructure",
+        "Low-Latency Systems"
+      ]
+    },
+    {
+      "name": "Blockchain Technology",
+      "keywords": [
+        "Distributed Ledgers",
+        "Smart Contracts",
+        "Cryptocurrency"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": []
+}

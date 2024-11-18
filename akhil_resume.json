@@ -1,0 +1,450 @@
+{
+  "name": "Akhil Tiwari",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "HFT | Trading Systems | Low Latency Execution | Real-Time Distributed Systems | Decentralized Ledgers | Blockchain | Cryptocurrency ",
+    "brief": "Senior Engineer, specializing in developing highly performant, low-latency trading systems. Experienced in building fast, scalable & reliable applications for financial markets.",
+    "image": "/Users/akhil/files/resume/imgs/pic00.heic"
+  },
+  "contact": {
+    "website": "@TODO-CREATE-WEBSITE",
+    "phone": "(+91)-895-981-5625",
+    "email": "akhiltiwari.13@gmail.com",
+    "other": [
+      {
+        "mobile": "(+91)-831-050-3252"
+      }
+    ]
+      
+  },
+  "location": {
+    "address": "A-083 Gulshan Botnia, Sector-144",
+    "city": "Noida",
+    "region": "Uttar Pradesh",
+    "code": "201306",
+    "country": "India"
+  },
+  "social": [
+    {
+      "label": "code",
+      "network": "GitHub",
+      "user": "akhiltiwari13",
+      "url": "https://github.com/akhiltiwari13"
+    },
+    {
+      "label": "code",
+      "network": "StackOverflow",
+      "user": "akhiltiwari",
+      "url": "https://stackoverflow.com/users/5161544/akhil-tiwari"
+    },
+    {
+      "label": "",
+      "network": "LinkedIn",
+      "user": "akhiltiwari",
+      "url": "https://www.linkedin.com/in/akhiltiwari-13/"
+    }
+  ],
+  "employment": {
+    "summary": "Trading Systems Developer",
+    "history": [
+      {
+        "employer": "Gemini",
+        "url": "https://www.gemini.com",
+        "position": "Senior Software Engineer",
+        "summary": "Trading Systems Development",
+        "start": "2023-12",
+        "end": "2024-07",
+        "keywords": [
+          "Finiacial Exchange",
+          "Match Engine",
+          "C++",
+          "Python",
+          "Scala"
+        ],
+        "highlights": [
+          "Designed and implemented highly available, low latency, and scalable services in C++ that ran in parallel to legacy systems before ultimately replacing them.",
+          "Implemented services to support the processing of orders and trades within the match engine",
+          "Implemented services that use Kafka to publish events from the match engine and ledger services",
+          "Implemented services to store and read data from AWS S3",
+          "Implemented gRPC endpoints that conformed to legacy APIs, but sourced from entirely new data formats•"
+        ]
+      },
+      {
+        "employer": "Morgan Stanley",
+        "url": "https://www.morganstanley.com",
+        "position": "Senior Manager",
+        "summary": "Memeber of the team responsible for the development, deployment & maintenence of Low-Latency Execution Engine for the firms Canadian & Brazilian business.",
+        "start": "2021-06",
+        "end": "2023-08",
+        "keywords": [
+          "HFT",
+          "Trading System",
+          "C++",
+          "Python",
+          "Smart Order Routers",
+          "Linux",
+          "Testplan"
+        ],
+        "highlights": [
+          "Developed a Beneficiary Ownership Check hop to restirict 'wash trades' which inturn prevented the firm from incurring fines due to cross-trades (if any).",
+          "Developed a smart order router for Bovespa (Brazil), BIVA/BMV (Mexico), and TSX (Canada) with a median roundtrip latency of approximately 27 microseconds.",
+          "Created system tests for verifying smart-order router functionality, log replay scripts, and end-of-day log analyzer scripts."
+        ]
+      },
+      {
+        "employer": "Edelweiss",
+        "url": "https://www.edelweissfin.com",
+        "position": "Manager",
+        "summary": "An Indian NBFC that provides a broad range of financial services, including brokerage services for NSE & BSE.",
+        "start": "2019-05",
+        "end": "2021-06",
+        "keywords": [
+          "HFT",
+          "OMS",
+          "RMS",
+          "C++",
+          "Python",
+          "FPGA",
+          "Linux",
+          "Verilog"
+        ],
+        "highlights": [
+          "Developed a Beneficiary Ownership Check hop to prevent wash trades.",
+          "Developed a smart order router for Bovespa (Brazil), BIVA/BMV (Mexico), and TSX (Canada) with a median roundtrip latency of approximately 27 microseconds.",
+          "Created system tests for verifying smart-order router functionality, log replay scripts, and end-of-day log analyzer scripts."
+        ]
+      },
+      {
+        "employer": "Deqode",
+        "url": "https://deqode.com",
+        "position": "Senior Research Analyst",
+        "summary": "Lead the team to develop a high-throughput decentralized ledger",
+        "start": "2018-05",
+        "end": "2019-05",
+        "keywords": [
+          "Blockchain",
+          "Cryptocurrency",
+          "C++",
+          "Smart Contracts",
+          "Ethereum|Bitcoint|Hyperledger|EOS|Bitshare",
+          "Solidity|Rust|Golang"
+        ],
+        "highlights": [
+          "Developed an in-house high-throughput distributed ledger (Blaze protocol).",
+          "Created Howdoo’s backend for token distribution using a BitShares fork and developed multiple smart contracts on the EOS.IO network.",
+          "Developed Tokenoimcs and smart contracts on multiple networks & using varying tech-stack"
+        ]
+      },
+      {
+        "employer": "Barclays",
+        "url": "https://home.barclays",
+        "position": "Senior Software Developer",
+        "summary": "Developed multliple application for banks' credit-card and trading systems business",
+        "start": "2015-06",
+        "end": "2018-05",
+        "keywords": [
+          "Trading System",
+          "C++",
+          "Python",
+          "C#",
+          "Appian BPM workflow",
+          "Linux"
+        ],
+        "highlights": [
+          "Developed and maintained contact center desktop applications to improve customer service efficiency.",
+          "Optimized UI components, resulting in a 15% reduction in latency."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Awesome Project #1",
+      "category": "FOSS",
+      "url": "http://project-page.org",
+      "repo": "https://project-repo.com",
+      "media": [],
+      "role": "Contributor",
+      "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
+      "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
+      "highlights": [
+        "Project Highlight #1",
+        "Project Highlight #2",
+        "Project Highlight #3"
+      ],
+      "keywords": [
+        "Tag1",
+        "Tag2",
+        "Tag3",
+        "Tag4"
+      ]
+    },
+    {
+      "title": "Asteroids",
+      "category": "FOSS",
+      "url": "http://asteroids-demo.org",
+      "repo": "https://asteroids-repo.com",
+      "media": [],
+      "role": "Creator",
+      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
+      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
+      "highlights": [
+        "Project Highlight #1",
+        "Project Highlight #2",
+        "Project Highlight #3"
+      ],
+      "keywords": [
+        "C++",
+        "Unreal Engine",
+        "3D",
+        "DirectX"
+      ]
+    }
+  ],
+  "education": {
+    "summary": "An IT Engineering grad with an apptitude for tech-solutions implementation",
+    "level": "Graduate",
+    "degree": "B.Engg",
+    "history": [
+      {
+        "institution": "Institute of Engineering & Technology, Devi Ahilya University",
+        "title": "B.E.",
+        "url": "https://www.ietdavv.edu.in",
+        "start": "2011-06",
+        "end": "2015-05",
+        "grade": "76.4%",
+        "summary": "Graduate of DAVV University, summer of '15",
+        "curriculum": [
+          "Data Structures & Algorithms",
+          "C",
+          "C++",
+          "Java",
+          "python",
+          "HTTP",
+          "TCP/IP",
+          "Operating Systems",
+          "Optimization",
+          "Neural Networks",
+          "Digital Computer Architecture",
+          "Microprocessor & 8085 Assembly"
+        ]
+      }
+    ]
+  },
+  "service": {
+    "summary": "",
+    "history": [
+      {
+        "flavor": "volunteer",
+        "position": "Morgan Stanley Give-Back Coordinator",
+        "organization": "Morgan Stanley's Advantage Services (India)",
+        "url": "https://www.morganstanley.com",
+        "start": "2021-06",
+        "end": "2023-08",
+        "summary": "Volunteered to 'give-back' to the society by organizing cleanliness and educational initiatives in the rural regions",
+        "highlights": []
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "HFT | Trading Systems Development",
+        "level": "advanced",
+        "skills": [
+          "C++",
+          "JavaScript",
+          "HTML 5",
+          "Angular.js",
+          "jQuery",
+          "Sass",
+          "LESS"
+        ]
+      },
+      {
+        "name": "Ninjitsu",
+        "level": "intermediate",
+        "skills": [
+          "Tokagure Ryu",
+          "Shuriken",
+          "Yogen"
+        ]
+      },
+      {
+        "name": "Skillset #3",
+        "level": "beginner",
+        "skills": [
+          "Your",
+          "keywords",
+          "here"
+        ]
+      }
+    ],
+    "list": []
+  },
+  "samples": [
+    {
+      "title": "Work Sample #1",
+      "summary": "A technical or creative **work sample**.",
+      "url": "http://project-repo.com",
+      "date": "2015"
+    },
+    {
+      "title": "Creative Sample #2",
+      "summary": "Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.",
+      "url": "http://project-repo.com",
+      "date": "2015"
+    }
+  ],
+  "writing": [
+    {
+      "title": "My Blog",
+      "publisher": {
+        "name": "Medium.com",
+        "url": "https://medium.com"
+      },
+      "flavor": "blog",
+      "date": "2010",
+      "summary": "Your blog or online home.",
+      "url": "http://coding-snorer.com"
+    },
+    {
+      "title": "Something I Wrote Once",
+      "flavor": "essay",
+      "date": "2009",
+      "summary": "List your blogs, articles, essays, novels, and dissertations.",
+      "publisher": {
+        "name": "Acme University Press",
+        "url": "http://press.acmeuniversity.edu"
+      },
+      "url": "http://codeproject.com/something-i-wrote-once"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Other Copenhagens",
+      "flavor": "book",
+      "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
+      "author": "Edmund Jorgensen"
+    },
+    {
+      "title": "r/programming",
+      "flavor": "website",
+      "url": "https://www.reddit.com/r/programming"
+    },
+    {
+      "title": "Hacker News",
+      "flavor": "website",
+      "url": "https://news.ycombinator.com/"
+    }
+  ],
+  "recognition": [
+    {
+      "flavor": "award",
+      "from": "HackMyResume",
+      "title": "Awesomeness Award",
+      "event": "HMR Release",
+      "url": "https://fluentdesk.com/hackmyresume",
+      "date": "2016",
+      "summary": "Thanks for being a HackMyResume / FluentCV user!"
+    },
+    {
+      "flavor": "industry",
+      "from": "Big Software",
+      "title": "MVP: SpinWidget Technology",
+      "event": "Yearly Roundup",
+      "date": "2015-08-03",
+      "summary": "For work in promotion and popularization of SpinWidget technology."
+    }
+  ],
+  "references": [
+    {
+      "name": "Rohit Sharma",
+      "category": "Quant | Kdb/Q+",
+      "role": "Vice President @ Goldmann Sachs.",
+      "private": true,
+      "summary": "Contact information available on request.",
+      "contact": [
+        {
+          "flavor": "email",
+          "value": "john.doe@somewhere.com"
+        }
+      ]
+    },
+    {
+      "name": "Jane Q. Fullstacker",
+      "category": "technical",
+      "summary": "Contact information available on request.",
+      "role": "Coworker",
+      "private": true,
+      "contact": [
+        {
+          "flavor": "email",
+          "value": "jane.fullstacker@somewhere.com"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "flavor": "professional",
+      "quote": "Such-and-such is awesome! I'd hire him/her again in a second!",
+      "private": false
+    },
+    {
+      "name": "Somebody Important",
+      "flavor": "technical",
+      "quote": "Hands-down *the best developer/manager/spelunker/coworker/etc* I've ever worked with. Emphasis *mine!*",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hindi",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "advanced"
+    },
+    {
+      "language": "C++",
+      "level": "intermediate"
+    },
+    {
+      "language": "python",
+      "level": "intermediate"
+    },
+    {
+      "language": "zig",
+      "level": "intermediate"
+    },
+    {
+      "language": "Rust",
+      "level": "intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "GitHub",
+      "summary": "Regular GitHub user and tinkerer.",
+      "keywords": [
+        "git",
+        "GitHub",
+        "git-lfs"
+      ]
+    },
+    {
+      "name": "Cricket|Badminton|Squash",
+      "summary": "Love using sports as a means to stay fit.",
+      "keywords": [
+        "Right Hand Medium Pace",
+        "Fast Bowling Allrounder"
+      ]
+    }
+  ]
+}
